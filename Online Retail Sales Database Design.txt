@@ -14,12 +14,12 @@ You can view the database schema diagram here: https://drive.google.com/file/d/1
 
 File Structure:
 
-File	Description
-schema.sql	Defines the database structure. Creates the database OnlineRetailDB and all tables (Customers, Products, Orders, Order_Items, Payments) with appropriate relationships and constraints.
-data.sql	Populates the tables with sample data for testing purposes (Users, Products, Orders, etc.).
-queries.sql	Contains analytical SQL queries and Views to generate reports on sales performance and customer spending.
-full_setup.sql	A unified script that combines schema creation, data insertion, and queries into a single execution file.
-setup_and_test.bat	An automated Windows batch script to run the full setup process with a single click.
+/
+├── schema.sql           # Defines the database structure.
+├── data.sql             # Populates the tables with sample data.
+├── queries.sql          # Contains analytical SQL queries and Views.
+├── full_setup.sql       # Unified script for schema, data, and queries.
+└── setup_and_test.bat   # Automated Windows batch script.
 
 Database Schema Reference:
 

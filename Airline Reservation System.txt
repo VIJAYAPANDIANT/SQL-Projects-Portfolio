@@ -12,11 +12,11 @@ https://drive.google.com/file/d/1wos0Lv9pgOYhve2-ZPyirkn7kaoYTsaX/view?usp=shari
 
 
 File Structure:
-| File | Description |
-| :--- | :--- |
-| airline_reservation_system_setup.sql | Defines the core database structure, including tables, indexes, triggers, and stored procedures. |
-| full_setup.sql | A unified script combining schema creation, data insertion, and sample analytical queries. |
-| setup_and_test_fixed.bat | An automated Windows batch script to find MySQL, execute the setup, and display results. |
+
+/
+├── airline_reservation_system_setup.sql   # Defines the core database structure.
+├── full_setup.sql                         # Unified script: schema, data, and queries.
+└── setup_and_test_fixed.bat               # Automated Windows batch script.
 
 Database Schema Reference:
 

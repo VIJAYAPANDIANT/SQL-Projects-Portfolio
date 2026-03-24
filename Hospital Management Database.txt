@@ -20,6 +20,13 @@ We have structured this project into three distinct SQL scripts to make it easy 
 02_sample_data.sql: A rich set of realistic dummy data to bring the database to life.
 03_reports_and_queries.sql: Advanced analytical queries that a real hospital would use for reporting and dashboarding.
 
+File Structure:
+
+/
+├── 01_schema.sql                  # Structural blueprint of the database.
+├── 02_sample_data.sql              # Realistic dummy data for testing.
+└── 03_reports_and_queries.sql      # Advanced analytical queries and reports.
+
 Database Architecture & Core Tables:
 
 The database is built using standard SQL and is compatible with major relational database management systems (RDBMS) like PostgreSQL, MySQL, and SQL Server. It follows strict normalization rules to eliminate data redundancy.
