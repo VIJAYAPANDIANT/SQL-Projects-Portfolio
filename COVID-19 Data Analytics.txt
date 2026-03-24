@@ -1,0 +1,89 @@
+COVID-19 Data Analytics Project (SQL)
+
+Project Overview:
+
+Welcome to the COVID-19 Data Analytics Project! This repository serves as a comprehensive demonstration of real-world data analytics using SQL. 
+The project focuses on processing, querying, and understanding global COVID-19 statistics through advanced database operations. Additionally, it features a frontend web dashboard to visualize the insights generated from the data.
+
+Project Objective:
+
+The primary goal of this project is to analyze global COVID-19 data to extract meaningful public health insights. Through rigorous SQL querying, this project answers key questions about the pandemic's impact:
+
+- Top Affected Countries: Which nations have recorded the highest number of total cases?
+- Daily Case Trends: How are new cases and deaths trending globally on a day-to-day basis?
+- Mortality Rates: What is the ratio of deaths to total cases across different countries?
+- Vaccination Progress: How successfully are countries rolling out their vaccination programs, and what percentage of their populations are fully vaccinated?
+- Rolling Averages: What is the 7-day rolling average of new cases for specific regions to identify active surges while smoothing out daily reporting anomalies?
+
+Document:
+
+https://drive.google.com/file/d/1WnLNYoLySju8G9t6Q9q1rP5FWfFITFR3/view?usp=sharing
+
+Key SQL Concepts Demonstrated:
+
+This project is built to showcase a wide array of essential SQL skills used by data analysts and data engineers in the industry:
+
+1. Database Schema Design: Creating structured tables with appropriate data types (VARCHAR, DATE, INT, BIGINT) and performance indexes.
+2. Data Cleaning & Handling: Using functions like NULLIF to handle missing or empty values gracefully during data import.
+3. Data Aggregation: Extensive use of SUM(), AVG(), and MAX() to summarize large datasets.
+4. Grouping & Filtering: Utilizing GROUP BY and HAVING (or WHERE) to categorize data by country or date and filter out statistically insignificant records.
+5. Table Joins: Executing inner joins (and Common Table Expressions, or CTEs) to combine the latest date records with the main dataset to find current aggregate totals.
+6. Window Functions: Leveraging OVER (PARTITION BY ... ORDER BY ... ROWS BETWEEN ...) to calculate complex metrics like the 7-day rolling average.
+7. Type Casting: Using CAST() or implicit conversions to accurately calculate percentage metrics without integer division truncation.
+
+Project Structure:
+
+/
+├── data/
+│   └── covid_dataset.csv          # Sample dataset used for the analysis.
+│
+├── database/
+│   ├── create_database.sql        # Script to initialize the target database.
+│   ├── create_tables.sql          # Script defining the schema for the covid_data table.
+│   └── import_data.sql            # Script to bulk load the CSV data into the database.
+│
+├── queries/
+│   ├── top_countries.sql          # Query: Retrieves the top 10 most affected countries.
+│   ├── daily_trends.sql           # Query: Summarizes global new cases/deaths per day.
+│   ├── death_rate.sql             # Query: Calculates the mortality percentage per country.
+│   ├── vaccination_progress.sql   # Query: Returns the percentage of the population fully vaccinated.
+│   └── rolling_cases.sql          # Query: Computes the 7-day moving average of cases.
+│
+├── docs/
+│   ├── analysis_report.md         # A detailed written report summarizing the SQL findings.
+│   └── dataset_description.md     # Documentation regarding the data schema and sources.
+│
+├── website/
+│   ├── index.html                 # The main structure of the Dashboard.
+│   ├── style.css                  # Beautiful, modern Glassmorphism styling.
+│   └── script.js                  # Logic for rendering Chart.js graphs and dynamic UI.
+│
+└── README.md                      # This documentation file.
+
+How to Run the Project:
+
+Phase 1: Database Setup and Analysis
+
+1. Ensure you have an SQL relational database management system installed (e.g., MySQL, PostgreSQL, SQL Server).
+2. Open your preferred SQL client tool (like DBeaver, MySQL Workbench, or VS Code SQL tools).
+3. Execute the script database/create_database.sql to instantiate the database environment.
+4. Execute database/create_tables.sql to build the required table structure.
+5. Use database/import_data.sql to load the mock data from data/covid_dataset.csv.
+6. Open any script within the queries/ folder and execute it to see the analytical results.
+
+Phase 2: Viewing the "Real World Website" Dashboard
+
+1. The project includes a fully responsive frontend dashboard designed to visualize the metrics obtained from our database.
+2. Navigate to the website/ folder.
+3. Open index.html directly in any modern web browser.
+4. You will see a professionally styled, dark-themed dashboard with interactive Chart.js visualizations.
+
+About the Data:
+
+The data provided in data/covid_dataset.csv is a simplified subset inspired by prominent public health datasets. It is structured specifically to allow for practicing the SQL queries listed above and acts as a placeholder for full-scale analytical efforts.
+
+
+Website Link: https://covid-19-data-analytics.vercel.app
+
+
+GitHub Link: https://github.com/VIJAYAPANDIANT/COVID-19-Data-Analytics

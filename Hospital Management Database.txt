@@ -1,0 +1,68 @@
+Hospital Management System - Database Design Project
+
+Project Overview:
+
+Welcome to the Hospital Management System Database Design project! This repository contains a fully normalized, enterprise-grade relational database schema designed to manage the core operations of a hospital or medical clinic.
+
+This project is perfectly suited for building the backend data foundation of healthcare applications, clinical dashboards, and hospital administrative software.
+
+Document:
+
+https://drive.google.com/file/d/139hLi_t5cZYQuEs8oL_Iv0jRKfYH-EKj/view?usp=sharing
+
+Project Overview Details:
+
+A Hospital Management System (HMS) handles complex daily operations: patient registrations, doctor scheduling, treatment tracking, and financial billing. This database is modeled to capture these real-world workflows accurately, ensuring data integrity, performance, and scalability.
+
+We have structured this project into three distinct SQL scripts to make it easy to understand, deploy, and test:
+
+01_schema.sql: The structural blueprint of the database.
+02_sample_data.sql: A rich set of realistic dummy data to bring the database to life.
+03_reports_and_queries.sql: Advanced analytical queries that a real hospital would use for reporting and dashboarding.
+
+Database Architecture & Core Tables:
+
+The database is built using standard SQL and is compatible with major relational database management systems (RDBMS) like PostgreSQL, MySQL, and SQL Server. It follows strict normalization rules to eliminate data redundancy.
+
+Core Tables:
+
+1. Patients Table: Stores demographic details, contact information, and medical specifics.
+2. Doctors Table: Tracks doctor profiles, their specialties, and employment details.
+3. Appointments Table: Handles the scheduling of visits.
+4. Treatments Table: Logs diagnoses, prescribed medications, and specific treatment procedures.
+5. Bills Table: Aggregates the costs of treatments and doctor consultations.
+6. Payments Table: Tracks money coming into the hospital.
+
+How to Run and Test This Project:
+
+Prerequisites:
+A SQL Database Engine installed (e.g., PostgreSQL, MySQL, SQL Server).
+A Database Client/IDE to run queries (e.g., DBeaver, pgAdmin, MySQL Workbench, or VS Code extensions).
+
+Step 1: Create the Schema
+Open your SQL client, create a new database (e.g., CREATE DATABASE hospital_db;), and run the 01_schema.sql script.
+
+Step 2: Populate with Sample Data
+Execute the 02_sample_data.sql script.
+
+Step 3: Run Reports and Analytics
+Execute the queries found in 03_reports_and_queries.sql.
+
+Real-World Analytics Demonstrated:
+
+The 03_reports_and_queries.sql file demonstrates how a hospital administrator would actually use this data. It includes queries for:
+- Doctor Workload Metrics
+- Comprehensive Patient History
+- Accounts Receivable (Outstanding Bills)
+- Revenue by Department
+- Scheduling Conflict Detection
+
+Skills and Concepts Showcased:
+
+- Entity-Relationship Modeling
+- Normalization (1NF, 2NF, 3NF)
+- Data Integrity
+- Advanced Data Retrieval
+
+
+GitHub Link: https://github.com/VIJAYAPANDIANT/Hospital-Management-Database
