@@ -1,93 +1,101 @@
 # 📊 SQL Projects Portfolio
 
-Welcome to my **SQL Projects Portfolio**! This repository showcases a collection of end-to-end database design and data analytics projects, ranging from normalized relational schemas for enterprise systems to advanced analytical processing of real-world datasets.
-
-![SQL](https://img.shields.io/badge/SQL-Expert-blue?style=for-the-badge&logo=mysql)
-![Database Design](https://img.shields.io/badge/Database-Design-green?style=for-the-badge)
-![Data Analytics](https://img.shields.io/badge/Data-Analytics-orange?style=for-the-badge)
-![Normalization](https://img.shields.io/badge/Normalization-3NF-red?style=for-the-badge)
+Welcome to my comprehensive SQL Projects Portfolio. This repository showcases a collection of four enterprise-grade database design and data analytics projects. Each project demonstrates core competencies in relational database management, schema normalization (3NF), complex SQL querying, and real-world data visualization.
 
 ---
 
-## 🎯 Portfolio Objective
-
-The goal of this portfolio is to demonstrate proficiency in:
-- **Relational Database Design:** Creating scalable, normalized schemas (3NF).
-- **Complex Querying:** Leveraging Window Functions, CTEs, and advanced Joins.
-- **Data Engineering:** Automating database setup and data ingestion processes.
-- **Business Intelligence:** Generating actionable insights through analytical reporting.
+## 📑 Table of Contents
+1. [Airline Reservation System](#1-airline-reservation-system)
+2. [Online Retail Sales Database Design](#2-online-retail-sales-database-design)
+3. [COVID-19 Data Analytics](#3-covid-19-data-analytics)
+4. [Hospital Management Database](#4-hospital-management-database)
+5. [Core Technologies & Skills](#-core-technologies--skills)
+6. [Navigation Guide](#-navigation-guide)
 
 ---
 
-## 📂 Featured Projects
+## ✈️ 1. Airline Reservation System
+A robust relational database designed to handle complex aviation operations. It manages flight scheduling, aircraft configurations, and passenger bookings with high data integrity.
 
-### 1. ✈️ Airline Reservation System
-A robust relational database designed to handle high-concurrency aviation operations, including scheduling, bookings, and financial tracking.
-
-- **Core Focus:** Concurrency control, data integrity, and complex scheduling.
+- **Focus:** Operational database design for large-scale aviation systems.
 - **Key Features:**
-  - Flight & Route management with dynamic pricing.
-  - Passenger booking system with unique PNR generation.
-  - Automated payment tracking and seat assignment logic.
-- **Assets:**
-  - [Project Overview](file:///c:/SQL%20Projects%20Portfolio/Airline%20Reservation%20System.txt)
-  - [Database Schema (ERD)](https://drive.google.com/file/d/1aPpZHlUhFCAFHqKVuJwO90tyL0crX7Ky/view?usp=sharing)
-  - [GitHub Repository](https://github.com/VIJAYAPANDIANT/Airline-Reservation-System)
-
-### 2. 🛒 Online Retail Sales Database Design
-An enterprise-grade e-commerce backend optimized for 3rd Normal Form (3NF) to ensure zero data redundancy.
-
-- **Core Focus:** Schema normalization and sales analytics.
-- **Key Features:**
-  - Customer profile management and order lifecycle tracking.
-  - Inventory management with category-based organization.
-  - Analytical Views for "Product Sales" and "Customer Spending".
-- **Assets:**
-  - [Project Overview](file:///c:/SQL%20Projects%20Portfolio/Online%20Retail%20Sales%20Database%20Design.txt)
-  - [Design Document](https://drive.google.com/file/d/1IDZ16cHi-L6vEmd5wcg24QTdLVhyAO9P/view?usp=sharing)
-  - [GitHub Repository](https://github.com/VIJAYAPANDIANT/Online-Retail-Sales-Database-Design)
-
-### 3. 🦠 COVID-19 Data Analytics
-A data-driven project processing global health statistics to identify trends and mortality rates using advanced SQL techniques.
-
-- **Core Focus:** Advanced SQL (CTEs, Window Functions) and Visualization.
-- **Key Features:**
-  - 7-day rolling average calculations for case surge detection.
-  - Vaccination progress tracking relative to population density.
-  - Live frontend dashboard for real-time data visualization.
-- **Assets:**
-  - [Project Overview](file:///c:/SQL%20Projects%20Portfolio/COVID-19%20Data%20Analytics.txt)
-  - [Live Dashboard](https://covid-19-data-analytics.vercel.app)
-  - [GitHub Repository](https://github.com/VIJAYAPANDIANT/COVID-19-Data-Analytics)
-
-### 4. 🏥 Hospital Management Database
-A healthcare-focused database system designed for managing patient records, doctor workloads, and medical billing.
-
-- **Core Focus:** Healthcare data privacy and operational efficiency.
-- **Key Features:**
-  - Centralized patient registration and appointment scheduling.
-  - Treatment logs with linked pharmacy/billing records.
-  - Departmental revenue analytics and doctor workload metrics.
-- **Assets:**
-  - [Project Overview](file:///c:/SQL%20Projects%20Portfolio/Hospital%20Management%20Database.txt)
-  - [Detailed Report](https://drive.google.com/file/d/139hLi_t5cZYQuEs8oL_Iv0jRKfYH-EKj/view?usp=sharing)
-  - [GitHub Repository](https://github.com/VIJAYAPANDIANT/Hospital-Management-Database)
+  - Flight scheduling and route management.
+  - Aircraft seat configurations (Economy/Business/First class).
+  - Passenger PNR generation and booking management.
+  - Financial transaction tracking with payment status.
+- **Project Resources:**
+  - 📄 **SQL Script:** [Airline Reservation System.txt](file:///c:/SQL%20Projects%20Portfolio/Airline%20Reservation%20System.txt)
+  - 📂 **Documentation:** [Google Drive](https://drive.google.com/file/d/1wos0Lv9pgOYhve2-ZPyirkn7kaoYTsaX/view?usp=sharing)
+  - 🗺️ **ERD Diagram:** [View Schema](https://drive.google.com/file/d/1aPpZHlUhFCAFHqKVuJwO90tyL0crX7Ky/view?usp=sharing)
+  - 🔗 **GitHub Repository:** [Link](https://github.com/VIJAYAPANDIANT/Airline-Reservation-System)
 
 ---
 
-## 🛠️ Technical Skill Set
+## 🛒 2. Online Retail Sales Database Design
+A 3rd Normal Form (3NF) relational database for an e-commerce platform, focusing on minimizing data redundancy and ensuring transactional integrity.
 
-- **Languages:** SQL (MySQL, PostgreSQL, T-SQL)
-- **Concepts:** Schema Normalization (1NF/2NF/3NF), ACID Properties, ER Modeling.
-- **Tools:** MySQL Workbench, DBeaver, VS Code, Git.
-- **Analytics:** CTEs, Window Functions, Views, Stored Procedures, Triggers.
+- **Focus:** E-commerce database architecture and normalization.
+- **Key Features:**
+  - Customer profile management and order tracking.
+  - Product inventory and category classification.
+  - Payment processing and historical price preservation.
+  - Sales analysis through powerful SQL Views.
+- **Project Resources:**
+  - 📄 **SQL Script:** [Online Retail Sales Database Design.txt](file:///c:/SQL%20Projects%20Portfolio/Online%20Retail%20Sales%20Database%20Design.txt)
+  - 📂 **Documentation:** [Google Drive](https://drive.google.com/file/d/1IDZ16cHi-L6vEmd5wcg24QTdLVhyAO9P/view?usp=sharing)
+  - 🗺️ **ERD Diagram:** [View Schema](https://drive.google.com/file/d/1GTRryWbzC-ndP1cEQBXxmjFuSXKXLK8Q/view?usp=sharing)
+  - 🔗 **GitHub Repository:** [Link](https://github.com/VIJAYAPANDIANT/Online-Retail-Sales-Database-Design)
 
 ---
 
-## 🚀 How to Explore
-Each project folder contains its own `setup.sql` and `queries.sql` files. You can find detailed setup instructions in the respective [Project Overview] text files linked above.
+## 🦠 3. COVID-19 Data Analytics
+A data analytics project focused on processing real-world global COVID-19 statistics using advanced SQL and modern web technologies.
+
+- **Focus:** Data engineering, analytical querying, and visualization.
+- **Key Features:**
+  - Advanced SQL (Window Functions, CTEs, Aggregations).
+  - Analysis of mortality rates, vaccination progress, and rolling averages.
+  - Fully responsive **Glassmorphism** web dashboard.
+  - Integration with Chart.js for dynamic data visualization.
+- **Project Resources:**
+  - 📄 **SQL Script:** [COVID-19 Data Analytics.txt](file:///c:/SQL%20Projects%20Portfolio/COVID-19%20Data%20Analytics.txt)
+  - 📂 **Documentation:** [Google Drive](https://drive.google.com/file/d/1WnLNYoLySju8G9t6Q9q1rP5FWfFITFR3/view?usp=sharing)
+  - 🌐 **Live Website:** [Live Dashboard](https://covid-19-data-analytics.vercel.app)
+  - 🔗 **GitHub Repository:** [Link](https://github.com/VIJAYAPANDIANT/COVID-19-Data-Analytics)
 
 ---
 
-**Portfolio by:** 👨‍💻 [VIJAYAPANDIAN.T](https://github.com/VIJAYAPANDIANT)
-*Passionate about turning complex data into structured insights.*
+## 🏥 4. Hospital Management Database
+An enterprise-grade schema designed to manage the core operations of a hospital or medical clinic, from patient registration to medical billing.
+
+- **Focus:** Healthcare management systems and medical data integrity.
+- **Key Features:**
+  - Patient registration and comprehensive medical history.
+  - Doctor scheduling and appointment management.
+  - Treatment logging and prescription tracking.
+  - Financial billing and revenue reporting by department.
+- **Project Resources:**
+  - 📄 **SQL Script:** [Hospital Management Database.txt](file:///c:/SQL%20Projects%20Portfolio/Hospital%20Management%20Database.txt)
+  - 📂 **Documentation:** [Google Drive](https://drive.google.com/file/d/139hLi_t5cZYQuEs8oL_Iv0jRKfYH-EKj/view?usp=sharing)
+  - 🔗 **GitHub Repository:** [Link](https://github.com/VIJAYAPANDIANT/Hospital-Management-Database)
+
+---
+
+## 🛠️ Core Technologies & Skills
+- **Databases:** MySQL, PostgreSQL, SQL Server.
+- **SQL Proficiency:** Schema Design, Normalization (1NF/2NF/3NF), CTEs, Window Functions, Views, Stored Procedures, Triggers.
+- **Tools:** DBeaver, MySQL Workbench, pgAdmin, VS Code.
+- **Web Tech:** HTML5, CSS3 (Glassmorphism), JavaScript, Chart.js (for COVID-19 Dashboard).
+
+---
+
+## 🗺️ Navigation Guide
+Each project in this portfolio includes a detailed `.txt` file containing:
+- **Project Objective:** Clear goals and problem statements.
+- **Architecture:** Breakdown of core tables and relationships.
+- **Setup Instructions:** How to deploy the SQL scripts in your local environment.
+- **Analytical Queries:** Sample queries to extract business intelligence from the data.
+
+---
+
+**Portfolio by:** 📜 [VIJAYAPANDIAN.T](https://github.com/VIJAYAPANDIANT)
